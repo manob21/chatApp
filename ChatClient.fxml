@@ -42,16 +42,6 @@
                 <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
             </padding>
             <children>
-                <!-- Main chat area -->
-                <VBox HBox.hgrow="ALWAYS">
-                    <children>
-                        <ScrollPane fitToHeight="true" fitToWidth="true" vbarPolicy="ALWAYS" VBox.vgrow="ALWAYS">
-                            <content>
-                                <TextArea fx:id="chatArea" editable="false" wrapText="true" />
-                            </content>
-                        </ScrollPane>
-                    </children>
-                </VBox>
 
                 <!-- User list sidebar -->
                 <VBox prefWidth="200.0" minWidth="200.0" maxWidth="200.0">
@@ -64,6 +54,19 @@
                         </ListView>
                     </children>
                 </VBox>
+                
+                <!-- Main chat area -->
+                <VBox HBox.hgrow="ALWAYS">
+                    <children>
+                        <ScrollPane fitToHeight="true" fitToWidth="true" vbarPolicy="ALWAYS" VBox.vgrow="ALWAYS">
+                            <content>
+                                <TextArea fx:id="chatArea" editable="false" wrapText="true" />
+                            </content>
+                        </ScrollPane>
+                    </children>
+                </VBox>
+
+                
             </children>
         </HBox>
     </center>

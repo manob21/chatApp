@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ChatClient (JavaFX)",
+            "request": "launch",
+            "mainClass": "ChatClient",
+            "vmArgs": "--module-path C:/src/javafx-sdk-21.0.7/lib --add-modules javafx.controls,javafx.fxml",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "ChatServer",
+            "request": "launch",
+            "mainClass": "ChatServer",
+            "console": "integratedTerminal"
+        }
+    ]
+}
